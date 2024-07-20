@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #17153B;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+header{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.628), hsla(222, 11%, 24%, 0.625)), url(./img/portada.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.899), hsla(219, 11%, 24%, 0.626)), url(./img/portada.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 280px;
+
+}
+.titulo__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.titulo__header h1{
+    font-size: 50px;
+    color: #C8ACD6
+
+}
+
+.titulo__header p{
+    font-size: 30px;
+    color: #C8ACD6
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    gap: 10px;
+}
+#entrada{
+    width: 500px;
+    height: 70px;
+    background: #a09da1;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5px ;
+    box-shadow: 0 0 10px 0 rgba(250, 248, 248, 0.5);
+    color: #f2f2f2;
+    border-radius: 10px 10px 0 0;
+    
+}
+.botton{
+    width: 122px;
+    height: 60px;
+    box-shadow: 0 0 10px 0 rgba(250, 248, 248, 0.5);
+
+}
+.number{
+    background: #2E236C;
+    color: #f2f2f2;
+}
+
+footer{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(217, 89%, 61%, 0.628), hsla(222, 11%, 24%, 0.625)), url(./img/portada.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(217, 89%, 61%, 0.899), hsla(219, 11%, 24%, 0.626)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px;
+    padding: 10px 0 ;
+    text-align: center;
+
+}
+.tituloFinal{
+    color: #C8ACD6;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.footer___conte > h2{
+    color: #C8ACD6;
+    font-size: 30px;
+}
+
+.footer___conte > p{
+    color: #C8ACD6;
+    font-size: 20px;
+}

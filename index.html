@@ -1,0 +1,78 @@
+<!-- 
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <script src="javascript.js"></script>
+    <input type="text" id="num1">
+    <input type="text" id="num2"><br><br>
+    <button id="Calcular" onclick="suma()">+</button>
+    <button id="Calcular" onclick="resta()">-</button>
+    <button id="Calcular" onclick="multi()">*</button>
+    <button id="Calcular" onclick="divi()">/</button>
+    <button id="Actualizar" onclick="clearInput()">Actualizar</button>
+    <p id="result"></p>
+    
+</body>
+</html>  -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        
+        <div class="titulo__header">
+            <h1>CalcMaster</h1>
+            <p>La precisión al alcance de tus dedos</p>
+        </div>
+        
+    </header>
+    <main>
+        <input type="text" id="entrada">
+        <div class="botones">
+    
+            <button class="botton number" onclick="valor('7')">7</button>
+            <button class="botton number" onclick="valor(8)">8</button>
+            <button class="botton number" onclick="valor(9)">9</button>
+            <button class="botton simbolo" onclick="valor('+')">+</button><br>
+            <button class="botton number" onclick="valor(6)">6</button>
+            <button class="botton number" onclick="valor(5)">5</button>
+            <button class="botton number" onclick="valor(4)">4</button>
+            <button class="botton simbolo" onclick="valor('-')">-</button><br>
+            <button class="botton number" onclick="valor(3)">3</button>
+            <button class="botton number" onclick="valor(2)">2</button>
+            <button class="botton number" onclick="valor(1)">1</button>
+            <button class="botton simbolo" onclick="valor('*')">*</button><br>
+            <button class="botton number" onclick="valor(0)">0</button>
+            <button class="botton simbolo" onclick="operacion('=')">=</button>
+            <button class="botton" onclick="document.location.reload()">C</button>
+            <button class="botton simbolo" onclick="valor('/')">/</button>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer___conte">
+            <h2>Servicio Nacional De Aprendizaje</h2>
+            <p>Tecnico en Progrmacion de Software</p>
+        </div>
+        <h2 class="tituloFinal">&copy; Gaor | Giovanny Oyola Rivas</h2>
+    </footer>
+ 
+
+    <script src="javascript.js"></script>
+</body>
+</html>
+ 
